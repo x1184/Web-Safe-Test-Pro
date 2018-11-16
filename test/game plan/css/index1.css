@@ -1,0 +1,215 @@
+@-webkit-keyframes animate-rotate-in-left
+{
+   0% { -webkit-transform: translate(-1000px,0px) rotate(0deg) ; opacity: 0;  }
+   50% { opacity: 1;  }
+   100% { -webkit-transform: translate(0px,0px) rotate(360deg) ;  }
+}
+@-moz-keyframes animate-rotate-in-left
+{
+   0% { -moz-transform: translate(-1000px,0px) rotate(0deg) ; opacity: 0;  }
+   50% { opacity: 1;  }
+   100% { -moz-transform: translate(0px,0px) rotate(360deg) ;  }
+}
+@-o-keyframes animate-rotate-in-left
+{
+   0% { -o-transform: translate(-1000px,0px) rotate(0deg) ; opacity: 0;  }
+   50% { opacity: 1;  }
+   100% { -o-transform: translate(0px,0px) rotate(360deg) ;  }
+}
+@-ms-keyframes animate-rotate-in-left
+{
+   0% { -ms-transform: translate(-1000px,0px) rotate(0deg) ; opacity: 0;  }
+   50% { opacity: 1;  }
+   100% { -ms-transform: translate(0px,0px) rotate(360deg) ;  }
+}
+@keyframes animate-rotate-in-left
+{
+   0% { transform: translate(-1000px,0px) rotate(0deg) ; opacity: 0;  }
+   50% { opacity: 1;  }
+   100% { transform: translate(0px,0px) rotate(360deg) ;  }
+}
+@-webkit-keyframes transform-lightspeed-in
+{
+   0% { -webkit-transform: translate(100%,0px) rotate(0deg) skewX(-30deg) ; opacity: 0;  }
+   60% { -webkit-transform: translate(-20%,0px) rotate(0deg) skewX(30deg) ; opacity: 1;  }
+   80% { -webkit-transform: translate(0px,0px) rotate(0deg) skewX(-15deg) ; opacity: 1;  }
+   100% { -webkit-transform: translate(0px,0px) rotate(0deg) skewX(0deg) ; opacity: 1;  }
+}
+@-moz-keyframes transform-lightspeed-in
+{
+   0% { -moz-transform: translate(100%,0px) rotate(0deg) skewX(-30deg) ; opacity: 0;  }
+   60% { -moz-transform: translate(-20%,0px) rotate(0deg) skewX(30deg) ; opacity: 1;  }
+   80% { -moz-transform: translate(0px,0px) rotate(0deg) skewX(-15deg) ; opacity: 1;  }
+   100% { -moz-transform: translate(0px,0px) rotate(0deg) skewX(0deg) ; opacity: 1;  }
+}
+@-o-keyframes transform-lightspeed-in
+{
+   0% { -o-transform: translate(100%,0px) rotate(0deg) skewX(-30deg) ; opacity: 0;  }
+   60% { -o-transform: translate(-20%,0px) rotate(0deg) skewX(30deg) ; opacity: 1;  }
+   80% { -o-transform: translate(0px,0px) rotate(0deg) skewX(-15deg) ; opacity: 1;  }
+   100% { -o-transform: translate(0px,0px) rotate(0deg) skewX(0deg) ; opacity: 1;  }
+}
+@-ms-keyframes transform-lightspeed-in
+{
+   0% { -ms-transform: translate(100%,0px) rotate(0deg) skewX(-30deg) ; opacity: 0;  }
+   60% { -ms-transform: translate(-20%,0px) rotate(0deg) skewX(30deg) ; opacity: 1;  }
+   80% { -ms-transform: translate(0px,0px) rotate(0deg) skewX(-15deg) ; opacity: 1;  }
+   100% { -ms-transform: translate(0px,0px) rotate(0deg) skewX(0deg) ; opacity: 1;  }
+}
+@keyframes transform-lightspeed-in
+{
+   0% { transform: translate(100%,0px) rotate(0deg) skewX(-30deg) ; opacity: 0;  }
+   60% { transform: translate(-20%,0px) rotate(0deg) skewX(30deg) ; opacity: 1;  }
+   80% { transform: translate(0px,0px) rotate(0deg) skewX(-15deg) ; opacity: 1;  }
+   100% { transform: translate(0px,0px) rotate(0deg) skewX(0deg) ; opacity: 1;  }
+}
+@-webkit-keyframes transform-scale-in
+{
+   0% { opacity: 0; -webkit-transform: rotate(0deg) scale(0,0) ;  }
+   100% { opacity: 1; -webkit-transform: rotate(0deg) scale(1.0,1.0) ;  }
+}
+@-moz-keyframes transform-scale-in
+{
+   0% { opacity: 0; -moz-transform: rotate(0deg) scale(0,0) ;  }
+   100% { opacity: 1; -moz-transform: rotate(0deg) scale(1.0,1.0) ;  }
+}
+@-o-keyframes transform-scale-in
+{
+   0% { opacity: 0; -o-transform: rotate(0deg) scale(0,0) ;  }
+   100% { opacity: 1; -o-transform: rotate(0deg) scale(1.0,1.0) ;  }
+}
+@-ms-keyframes transform-scale-in
+{
+   0% { opacity: 0; -ms-transform: rotate(0deg) scale(0,0) ;  }
+   100% { opacity: 1; -ms-transform: rotate(0deg) scale(1.0,1.0) ;  }
+}
+@keyframes transform-scale-in
+{
+   0% { opacity: 0; transform: rotate(0deg) scale(0,0) ;  }
+   100% { opacity: 1; transform: rotate(0deg) scale(1.0,1.0) ;  }
+}
+@-webkit-keyframes vanish-in
+{
+   0% { -webkit-transform: rotate(0deg) scale(2,2) ; opacity: 0; -webkit-transform-origin: 50% 50%;  }
+   100% { -webkit-transform: rotate(0deg) scale(1,1) ; opacity: 1; -webkit-transform-origin: 50% 50%;  }
+}
+@-moz-keyframes vanish-in
+{
+   0% { -moz-transform: rotate(0deg) scale(2,2) ; opacity: 0; -moz-transform-origin: 50% 50%;  }
+   100% { -moz-transform: rotate(0deg) scale(1,1) ; opacity: 1; -moz-transform-origin: 50% 50%;  }
+}
+@-o-keyframes vanish-in
+{
+   0% { -o-transform: rotate(0deg) scale(2,2) ; opacity: 0; -o-transform-origin: 50% 50%;  }
+   100% { -o-transform: rotate(0deg) scale(1,1) ; opacity: 1; -o-transform-origin: 50% 50%;  }
+}
+@-ms-keyframes vanish-in
+{
+   0% { -ms-transform: rotate(0deg) scale(2,2) ; opacity: 0; -ms-transform-origin: 50% 50%;  }
+   100% { -ms-transform: rotate(0deg) scale(1,1) ; opacity: 1; -ms-transform-origin: 50% 50%;  }
+}
+@keyframes vanish-in
+{
+   0% { transform: rotate(0deg) scale(2,2) ; opacity: 0; transform-origin: 50% 50%;  }
+   100% { transform: rotate(0deg) scale(1,1) ; opacity: 1; transform-origin: 50% 50%;  }
+}
+/*右上角的屈行游戏加速器入场动漫,不要改动*/
+@font-face{
+	 font-family:'FontAwesome';
+	 src:url('../font/fontawesome-webfont.eot?v=4.7.0');
+	 src:url('../font/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),url('fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('../font/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('../font/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+	 font-weight:normal;
+	 font-style:normal}
+.fa{display:inline-block;
+	font:normal normal normal 14px/1 FontAwesome;
+	font-size:inherit;
+	text-rendering:auto;
+	-webkit-font-smoothing:
+	antialiased;-moz-osx-font-smoothing:grayscale
+}
+.fa-qq:before{content:"\f1d6"}
+.fa-terminal:before{content:"\f120"}
+.fa-signal:before{content:"\f012"}
+.fa-rocket:before{content:"\f135"}
+.fa-whatsapp:before{content:"\f232"}
+.fa-weibo:before{content:"\f18a"}
+.fa-wechat:before,.fa-weixin:before{content:"\f1d7"}
+.fa-envelope-o:before{content:"\f003"}
+.fa-envelope:before{content:"\f0e0"}
+/*网站上的一些图标的应用,不要改*/
+p,h1,h2,h3,h4,h5,h6,body,div,dl,dt,dd,ul,li,input,from,a,textarea,hr
+{
+	margin: 0;
+	padding: 0;
+	font-family:"font", "思源黑体", "微软雅黑", "宋体";
+}
+ol,ul,li{
+	list-style: none;
+	
+}
+a{
+	text-decoration: none;
+}/*display: block;使两个a再一起的时候会自动换行*/
+a:link {
+	color:#000000;
+} /* 未访问的链接 */
+a:visited {
+	color:#000000;
+} /* 已访问的链接 */
+a:hover {color:#A9DF85;} /* 鼠标划过链接 */
+.panel a:hover{
+	animation: flipper 3s ease-in;
+	-moz-animation: flipper 3s ease-in;
+	-webkit-animation: flipper 3s ease-in;
+	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;} 
+	@-webkit-keyframes flipper{
+	0%{-webkit-transform:perspective(2500px) rotateY(0deg)}
+	15%,100%{-webkit-transform:perspective(2500px) rotateY(360deg)}}
+	@-moz-keyframes flipper{0%{-moz-transform:perspective(2500px) rotateY(0deg)}15%,
+	100%{-moz-transform:perspective(2500px) rotateY(360deg)}}
+	@keyframes flipper{0%{transform:perspective(2500px) rotateY(0deg)}15%,
+	100%{transform:perspective(2500px) rotateY(360deg)}
+} /* 鼠标划过链接 */
+a:active {
+	color:#0000FF;
+} /* 已选中的链接 */
+img{
+	border: none;
+}/*display: block;把图片变成区块,如果是none变成内联块.border: none;设置图片无边框*/
+.img:hover {
+    border: 1px solid #777;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+.visibility-hidden
+{
+   visibility: hidden;
+}
+.CustomStyle
+{
+   font-family: "Courier New";
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #2E74B5;
+   background-color: transparent;
+}
+@font-face{
+font-family:"logo";
+/*为引入的字体命名*/
+src: url("../font/logo.ttf")
+/*定义要引入字体文件的路径*/
+}
+@font-face{
+font-family:"font";
+/*为引入的字体命名*/	
+src: url("../font/font.ttf")
+/*定义要引入字体文件的路径*/	
+}
+.logo-font{
+	font-family: logo;
+}

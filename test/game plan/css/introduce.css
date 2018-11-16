@@ -1,0 +1,821 @@
+body
+{
+   background-color: #23A899;
+   background-image: url(images/index_bkgrnd.png);
+   background-repeat: repeat-x;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#video
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   border-width: 0;
+}
+#wb_video
+{
+   display: block;
+   position: relative;
+   margin: 0;
+   height: 0;
+   overflow: hidden;
+   box-sizing: border-box;
+   padding-bottom: 56.25%;
+   padding-left: 0;
+   padding-right: 0;
+   padding-top: 0;
+}
+#wb_LayoutGrid4
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid4
+{
+   box-sizing: border-box;
+   padding: 50px 15px 50px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1140px;
+}
+#LayoutGrid4 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid4 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: left;
+}
+#LayoutGrid4:before,
+#LayoutGrid4:after,
+#LayoutGrid4 .row:before,
+#LayoutGrid4 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid4:after,
+#LayoutGrid4 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid4 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Image5
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image5
+{
+   border: 0px solid #000000;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 500px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0px 0px 10px 0px;
+   text-align: center;
+}
+#Heading1
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   margin: 0;
+   text-align: center;
+}
+#wb_projectCarouselGrid
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#projectCarouselGrid
+{
+   box-sizing: border-box;
+   padding: 50px 15px 20px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1080px;
+}
+#projectCarouselGrid .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#projectCarouselGrid > .row > .col-1, #projectCarouselGrid > .row > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#projectCarouselGrid > .row > .col-1, #projectCarouselGrid > .row > .col-2
+{
+   float: left;
+}
+#projectCarouselGrid > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 66.66666667%;
+   text-align: center;
+}
+#projectCarouselGrid > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 33.33333333%;
+   text-align: left;
+}
+#projectCarouselGrid:before,
+#projectCarouselGrid:after,
+#projectCarouselGrid .row:before,
+#projectCarouselGrid .row:after
+{
+   display: table;
+   content: " ";
+}
+#projectCarouselGrid:after,
+#projectCarouselGrid .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#projectCarouselGrid > .row > .col-1, #projectCarouselGrid > .row > .col-2
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_projectCarousel1
+{
+   background-color: #CCCCCC;
+   background-image: none;
+   margin: 0;
+}
+#wb_projectCarousel1
+{
+   height: 358px;
+}
+#projectCarousel1
+{
+   position: relative;
+   margin: 0;
+   line-height: 1;
+   height: 100%;
+   box-sizing: border-box;
+}
+#projectCarousel1 .carousel-inner
+{
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+#projectCarousel1 .carousel-inner > .item
+{
+   display: none;
+   position: relative;
+   -webkit-transition: 500ms ease-in-out left;
+   -moz-transition: 500ms ease-in-out left;
+   transition: 500ms ease-in-out left;
+   height: 100%;
+   text-align: center;
+}
+#projectCarousel1 .innerframe
+{
+   padding: 0;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   height: 100%;
+   box-sizing: border-box;
+}
+#projectCarousel1 .carousel-inner > .item > img, #projectCarousel1 .carousel-inner > .item > a > img
+{
+   display: block;
+   line-height: 1;
+}
+#projectCarousel1 .carousel-inner > .active, #projectCarousel1 .carousel-inner > .next, #projectCarousel1 .carousel-inner > .prev
+{
+   display: block;
+}
+#projectCarousel1 .carousel-inner > .active
+{
+   left: 0;
+}
+#projectCarousel1 .carousel-inner > .next, #projectCarousel1 .carousel-inner > .prev
+{
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+#projectCarousel1 .carousel-inner > .next
+{
+   left: 100%;
+}
+#projectCarousel1 .carousel-inner > .prev
+{
+   left: -100%;
+}
+#projectCarousel1 .carousel-inner > .next.left, #projectCarousel1 .carousel-inner > .prev.right
+{
+   left: 0;
+}
+#projectCarousel1 .carousel-inner > .active.left
+{
+   left: -100%;
+}
+#projectCarousel1 .carousel-inner > .active.right
+{
+   left: 100%;
+}
+#projectCarousel1 .carousel-indicators
+{
+   list-style: none;
+   bottom: 0;
+   padding: 0;
+   margin: 0;
+   position: absolute;
+   margin-left: -84px;
+   left: 50%;
+   vertical-align: middle;
+   z-index: 999;
+}
+#projectCarousel1 .carousel-indicators li
+{
+   display: block;
+   float: left;
+   padding: 6px 6px 6px 6px;
+   width: 30px;
+   height: 30px;
+   cursor: pointer;
+   text-indent: -999px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-image: url(images/page_default.png);
+}
+#projectCarousel1 .carousel-indicators .active
+{
+   background-image: url(images/page_active.png);
+}
+#projectCarousel1 .frame
+{
+   width: 558px;
+   display: inline-block;
+   float: left;
+   height: 358px;
+}
+#wb_projectCarousel1 .pagination
+{
+   bottom: 0;
+   left: 0;
+   position: absolute;
+   text-align: center;
+   vertical-align: middle;
+   width: 100%;
+   z-index: 998;
+}
+#wb_projectCarousel1 .pagination img
+{
+   border-style: none;
+   padding: 6px 6px 6px 6px;
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 10px 0px 10px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text8 div
+{
+   text-align: center;
+   white-space: nowrap;
+}
+#wb_Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 10px 0px 10px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text9 div
+{
+   text-align: center;
+   white-space: nowrap;
+}
+#wb_Text10 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 10px 0px 10px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text10 div
+{
+   text-align: center;
+   white-space: nowrap;
+}
+#wb_Text11 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 10px 0px 10px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text11 div
+{
+   text-align: center;
+   white-space: nowrap;
+}
+#wb_projectCarousel2
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   margin: 0;
+}
+#wb_projectCarousel2
+{
+}
+#projectCarousel2
+{
+   position: relative;
+   margin: 0;
+   line-height: 1;
+   height: 100%;
+   box-sizing: border-box;
+}
+#projectCarousel2 .carousel-inner
+{
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+#projectCarousel2 .carousel-inner > .item
+{
+   display: none;
+   position: relative;
+   -webkit-transition: 0ms ease-in-out left;
+   -moz-transition: 0ms ease-in-out left;
+   transition: 0ms ease-in-out left;
+   height: 100%;
+   text-align: left;
+}
+#projectCarousel2 .innerframe
+{
+   min-height: 355px;
+   padding: 0;
+}
+#projectCarousel2 .carousel-inner > .item > img, #projectCarousel2 .carousel-inner > .item > a > img
+{
+   display: block;
+   line-height: 1;
+}
+#projectCarousel2 .carousel-inner > .active, #projectCarousel2 .carousel-inner > .next, #projectCarousel2 .carousel-inner > .prev
+{
+   display: block;
+}
+#projectCarousel2 .carousel-inner > .active
+{
+   left: 0;
+}
+#projectCarousel2 .carousel-inner > .next, #projectCarousel2 .carousel-inner > .prev
+{
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+#projectCarousel2 .carousel-inner > .next
+{
+   left: 100%;
+}
+#projectCarousel2 .carousel-inner > .prev
+{
+   left: -100%;
+}
+#projectCarousel2 .carousel-inner > .next.left, #projectCarousel2 .carousel-inner > .prev.right
+{
+   left: 0;
+}
+#projectCarousel2 .carousel-inner > .active.left
+{
+   left: -100%;
+}
+#projectCarousel2 .carousel-inner > .active.right
+{
+   left: 100%;
+}
+#projectCarousel2 .frame
+{
+   width: 264px;
+   display: inline-block;
+   float: left;
+   height: 355px;
+}
+#wb_projectText1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 10px 0px 10px 0px;
+   margin: 0;
+   text-align: left;
+}
+#wb_projectText1 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_projectText2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 10px 0px 10px 0px;
+   margin: 0;
+   text-align: left;
+}
+#wb_projectText2 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_projectText3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 10px 0px 10px 0px;
+   margin: 0;
+   text-align: left;
+}
+#wb_projectText3 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_projectText4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 10px 0px 10px 0px;
+   margin: 0;
+   text-align: left;
+}
+#wb_projectText4 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_LayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid3
+{
+   box-sizing: border-box;
+   padding: 20px 15px 50px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1140px;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2, #LayoutGrid3 > .row > .col-3, #LayoutGrid3 > .row > .col-4
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2, #LayoutGrid3 > .row > .col-3, #LayoutGrid3 > .row > .col-4
+{
+   float: left;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: left;
+}
+#LayoutGrid3 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: left;
+}
+#LayoutGrid3 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: left;
+}
+#LayoutGrid3 > .row > .col-4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: left;
+}
+#LayoutGrid3:before,
+#LayoutGrid3:after,
+#LayoutGrid3 .row:before,
+#LayoutGrid3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid3:after,
+#LayoutGrid3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid3 > .row > .col-1, #LayoutGrid3 > .row > .col-2, #LayoutGrid3 > .row > .col-3, #LayoutGrid3 > .row > .col-4
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Image1
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   box-sizing: border-box;
+   padding: 0;
+   display: inline-block;
+   width: 149px;
+   height: 141px;
+   vertical-align: top;
+}
+#wb_Image2
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   box-sizing: border-box;
+   padding: 0;
+   display: inline-block;
+   width: 149px;
+   height: 141px;
+   vertical-align: top;
+}
+#wb_Image3
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image3
+{
+   border: 0px solid #000000;
+   box-sizing: border-box;
+   padding: 0;
+   display: inline-block;
+   width: 149px;
+   height: 141px;
+   vertical-align: top;
+}
+#wb_Image4
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image4
+{
+   border: 0px solid #000000;
+   box-sizing: border-box;
+   padding: 0;
+   display: inline-block;
+   width: 149px;
+   height: 141px;
+   vertical-align: top;
+}
+#wb_uid1
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24px;
+}
+#wb_uid2
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24px;
+}
+#wb_uid3
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24px;
+}
+#wb_Image1
+{
+   display: inline-block;
+   width: 149px;
+   height: 141px;
+   z-index: 21;
+}
+#wb_uid4
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24px;
+}
+#wb_video
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 2;
+}
+#wb_Image2
+{
+   display: inline-block;
+   width: 149px;
+   height: 141px;
+   z-index: 22;
+}
+#wb_uid5
+{
+   color: #000000;
+   font-family: Arial;
+   font-size: 15px;
+   line-height: 16px;
+}
+#wb_Image3
+{
+   display: inline-block;
+   width: 149px;
+   height: 141px;
+   z-index: 23;
+}
+#wb_uid6
+{
+   color: #000000;
+   font-family: Arial;
+   font-size: 15px;
+   line-height: 16px;
+}
+#wb_Image4
+{
+   display: inline-block;
+   width: 149px;
+   height: 141px;
+   z-index: 24;
+}
+#wb_uid7
+{
+   color: #000000;
+   font-family: Arial;
+   font-size: 15px;
+   line-height: 16px;
+}
+#wb_uid8
+{
+   color: #000000;
+   font-family: Arial;
+   font-size: 15px;
+   line-height: 16px;
+}
+#wb_Image5
+{
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   z-index: 1;
+}
+#wb_projectCarousel1
+{
+}
+#wb_projectCarousel2
+{
+}
+#wb_Heading1
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 0;
+}
+#wb_uid0
+{
+   position: absolute;
+   left: 185px;
+   top: 1591px;
+   margin: 0;
+   border-width: 0;
+   z-index: 250;
+}
