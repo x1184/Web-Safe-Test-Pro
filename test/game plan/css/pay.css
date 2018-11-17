@@ -6,8 +6,8 @@
 .pay{
 	background: url("../images/download 2.png"), url("../images/download1.png");
 	background-position:bottom,center;
-	background-repeat: no-repeat, repeat;
-	background-size:100% 35%;
+	background-repeat: no-repeat, repeat;  /*云朵不重复 ,蓝色背景重复*/
+	background-size:100% 40%;
 	height: 100%;
 	width: 100%;
 	display: -webkit-flex; /* Safari */
