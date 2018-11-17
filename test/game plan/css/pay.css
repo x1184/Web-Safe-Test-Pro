@@ -6,8 +6,8 @@
 .pay{
 	background: url("../images/download 2.png"), url("../images/download1.png");
 	background-position:bottom,center;
-	background-repeat: no-repeat, repeat;  /*云朵不重复 ,蓝色背景重复*/
-	background-size:100% 40%;
+	background-repeat: no-repeat, repeat;
+	background-size:100% 35%;
 	height: 100%;
 	width: 100%;
 	display: -webkit-flex; /* Safari */
@@ -27,18 +27,11 @@
 	width: 88%;
 }
 .pay .pay-img .pay-img-rocket{
-	/*height: 65%;   高度至不需要  因为图片是成比例的  只设置一个宽度就行了*/
-	width: 37%;
-	position:absolute; 
-	top: 32%;
-	left: 32%;
-	/*position属性这里 本来尝试了下relative  但发现 估计和其他元素布局有冲突
-	 * 搞复杂了 就用absolute了 然后 解决宽高很小时显示出框 实际上还是自适应的问题
-	 * 
-	 * 想弄自适应 那所有的东西都是相对的值 所以说尽量都是用%来表示比例关系
-	 * 实在不行了 也用 布局里的  居中 之类弥补 
-	 * 
-	 */
+	height: 65%;
+	width: 45%;
+	position:absolute;
+	left:80px;
+	top:100px;
 }
 .pay-download{
 	position: relative;
