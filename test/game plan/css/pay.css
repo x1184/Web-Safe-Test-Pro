@@ -137,4 +137,5 @@
    vertical-align: middle;
    line-height: 38px;
    text-align: center;
+	z-index: 999;
 }

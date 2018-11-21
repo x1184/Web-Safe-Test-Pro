@@ -321,6 +321,7 @@
    vertical-align: middle;
    line-height: 38px;
    text-align: center;
+	z-index: 999;
 }
 #wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover, #wb_CssMenu1 .active
 {
