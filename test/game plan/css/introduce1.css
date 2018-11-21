@@ -29,9 +29,9 @@
 }
 .content span{
 	height: 100%;
-	width: 100%;
-	margin: 300px 100px;
-	padding: 300px 80px;
+	width: 1%;
+	margin: 0 100px;
+	padding: 0 100px;
 }
 .content .img{
 	float: left;
@@ -66,8 +66,8 @@
 }
 .introduce .describe{
 	float: right;
-	padding: 60px 0;
-	margin: 180px 0;
+	padding: 20px 0;
+	margin: 60px 0;
 }
 .introduce .describe p{
 	margin: 40px 0;
@@ -88,3 +88,41 @@
   /* 触发 hasLayout */ 
   zoom: 1; 
   }
+#light_1{ 
+  display:none; 
+  position:absolute; 
+  top:10%; 
+  left:10%; 
+  width:75%; 
+  height:65%; 
+  padding:16px; 
+  border:3px solid #86E0F7; 
+  background-color:white; 
+  z-index:1002; 
+  overflow:auto; 
+} 
+.popups-off{
+	position: absolute;
+	left:2%;
+	top:2%;
+}
+.popups-off a{
+   display: block;
+   float: left;
+   color: #9D9D9D;
+   border: 0px #222222 solid;
+   border-radius: 3px;
+   background-color: #151515;
+   background-image: none;
+   font-family: "font";
+   font-weight: bold;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   width: 9.67%;
+   height: 3px;
+   padding: 0px 5px 0px 5px;
+   vertical-align: middle;
+   line-height: 38px;
+   text-align: center;
+}
