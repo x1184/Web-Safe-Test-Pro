@@ -1,0 +1,605 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid2
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: url(images/supplies6.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid2
+{
+   box-sizing: border-box;
+   padding: 80px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1200px;
+}
+#LayoutGrid2 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid2:before,
+#LayoutGrid2:after,
+#LayoutGrid2 .row:before,
+#LayoutGrid2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid2:after,
+#LayoutGrid2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid2 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#LayoutGrid2-overlay
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-color: #000000;
+   opacity: 0.75;
+}
+#wb_Carousel2
+{
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+}
+#Carousel2
+{
+   position: relative;
+   margin: 0;
+   line-height: 1;
+   height: 100%;
+   box-sizing: border-box;
+}
+#Carousel2 .carousel-inner
+{
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+#Carousel2 .carousel-inner > .item
+{
+   display: none;
+   position: relative;
+   -webkit-transition: -1ms ease-in-out left;
+   -moz-transition: -1ms ease-in-out left;
+   transition: -1ms ease-in-out left;
+   height: 100%;
+   text-align: center;
+}
+#Carousel2 .innerframe
+{
+   min-height: 150px;
+   padding: 40px 0px;
+}
+#Carousel2 .carousel-indicators
+{
+   list-style: none;
+   bottom: 0;
+   padding: 0;
+   margin: 0;
+   position: absolute;
+   margin-left: -180px;
+   left: 100%;
+   vertical-align: middle;
+   z-index: 999;
+}
+#Carousel2 .carousel-indicators li
+{
+   display: block;
+   float: left;
+   padding: 12px;
+   width: 12px;
+   height: 12px;
+   cursor: pointer;
+   text-indent: -999px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-image: url(images/page_default1.png);
+}
+#Carousel2 .carousel-indicators .active
+{
+   background-image: url(images/page_active1.png);
+}
+#Carousel2 .frame
+{
+   width: 940px;
+   display: inline-block;
+   float: left;
+   height: 297px;
+}
+#wb_FontAwesomeIcon1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_FontAwesomeIcon1:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon1
+{
+   height: 100px;
+   width: 126px;
+}
+#FontAwesomeIcon1 img
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 100px;
+   line-height: 100px;
+   vertical-align: middle;
+   width: 167px;
+}
+#wb_FontAwesomeIcon1:hover img
+{
+   color: #FFFFFF;
+}
+#wb_FontAwesomeIcon2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_FontAwesomeIcon2:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon2
+{
+   height: 100px;
+   width: 126px;
+}
+#FontAwesomeIcon2 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 100px;
+   line-height: 100px;
+   vertical-align: middle;
+   width: 128px;
+}
+#wb_FontAwesomeIcon2:hover i
+{
+   color: #FFFFFF;
+}
+#wb_FontAwesomeIcon4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_FontAwesomeIcon4:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon4
+{
+   height: 100px;
+   width: 126px;
+}
+#FontAwesomeIcon4 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 100px;
+   line-height: 100px;
+   vertical-align: middle;
+   width: 128px;
+}
+#wb_FontAwesomeIcon4:hover i
+{
+   color: #FFFFFF;
+}
+#wb_FontAwesomeIcon3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_FontAwesomeIcon3:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon3
+{
+   height: 100px;
+   width: 126px;
+}
+#FontAwesomeIcon3 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 100px;
+   line-height: 100px;
+   vertical-align: middle;
+   width: 114px;
+}
+#wb_FontAwesomeIcon3:hover i
+{
+   color: #FFFFFF;
+}
+#wb_FontAwesomeIcon5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_FontAwesomeIcon5:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon5
+{
+   height: 100px;
+   width: 126px;
+}
+#FontAwesomeIcon5 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 100px;
+   line-height: 100px;
+   vertical-align: middle;
+   width: 85px;
+}
+#wb_FontAwesomeIcon5:hover i
+{
+   color: #FFFFFF;
+}
+#wb_FontAwesomeIcon6
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_FontAwesomeIcon6:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon6
+{
+   height: 100px;
+   width: 126px;
+}
+#FontAwesomeIcon6 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 100px;
+   line-height: 100px;
+   vertical-align: middle;
+   width: 92px;
+}
+#wb_FontAwesomeIcon6:hover i
+{
+   color: #FFFFFF;
+}
+#wb_FontAwesomeIcon7
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_FontAwesomeIcon7:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon7
+{
+   height: 100px;
+   width: 126px;
+}
+#FontAwesomeIcon7 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 100px;
+   line-height: 100px;
+   vertical-align: middle;
+   width: 100px;
+}
+#wb_FontAwesomeIcon7:hover i
+{
+   color: #FFFFFF;
+}
+#wb_FontAwesomeIcon8
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_FontAwesomeIcon8:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon8
+{
+   height: 100px;
+   width: 126px;
+}
+#FontAwesomeIcon8 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 100px;
+   line-height: 100px;
+   vertical-align: middle;
+   width: 78px;
+}
+#wb_FontAwesomeIcon8:hover i
+{
+   color: #FFFFFF;
+}
+#wb_FontAwesomeIcon9
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_FontAwesomeIcon9:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon9
+{
+   height: 100px;
+   width: 126px;
+}
+#FontAwesomeIcon9 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 100px;
+   line-height: 100px;
+   vertical-align: middle;
+   width: 92px;
+}
+#wb_FontAwesomeIcon9:hover i
+{
+   color: #FFFFFF;
+}
+#wb_FontAwesomeIcon10
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_FontAwesomeIcon10:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#FontAwesomeIcon10
+{
+   height: 100px;
+   width: 126px;
+}
+#FontAwesomeIcon10 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 100px;
+   line-height: 100px;
+   vertical-align: middle;
+   width: 85px;
+}
+#wb_FontAwesomeIcon10:hover i
+{
+   color: #FFFFFF;
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0px 0px 10px 0px;
+   text-align: center;
+}
+#Heading1
+{
+   color: #FFFFFF;
+   font-weight: bold;
+   font-size: 42px;
+   margin: 40px;
+   text-align: center;
+}
+/**
+ * Owl Carousel v2.3.2
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+.owl-carousel,.owl-carousel .owl-item
+{
+	-webkit-tap-highlight-color:transparent;position:relative
+}
+.owl-carousel
+{
+	display:none;width:100%;z-index:1
+}
+.owl-carousel .owl-stage
+{
+	position:relative;-ms-touch-action:pan-Y;touch-action:manipulation;-moz-backface-visibility:hidden
+}
+.owl-carousel .owl-stage:after
+{
+	content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0
+}
+.owl-carousel .owl-stage-outer
+{
+	position:relative;overflow:hidden;-webkit-transform:translate3d(0,0,0)
+}
+.owl-carousel .owl-item,.owl-carousel .owl-wrapper
+{
+	-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0)
+}
+.owl-carousel .owl-item
+{
+	min-height:1px;float:left;-webkit-backface-visibility:hidden;-webkit-touch-callout:none
+}
+.owl-carousel .owl-item img{display:block;width:100%}
+.owl-carousel .owl-dots.disabled,.owl-carousel .owl-nav.disabled{display:none}
+.no-js .owl-carousel,.owl-carousel.owl-loaded{display:block}
+.owl-carousel .owl-dot,.owl-carousel .owl-nav .owl-next,.owl-carousel .owl-nav .owl-prev{cursor:pointer;cursor:hand;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.owl-carousel .owl-nav button.owl-next,.owl-carousel .owl-nav button.owl-prev,.owl-carousel button.owl-dot{background:0 0;color:inherit;border:none;padding:0!important;font:inherit}
+.owl-carousel.owl-loading{opacity:0;display:block}
+.owl-carousel.owl-hidden{opacity:0}
+.owl-carousel.owl-refresh .owl-item{visibility:hidden}
+.owl-carousel.owl-drag .owl-item{-ms-touch-action:none;touch-action:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.owl-carousel.owl-grab{cursor:move;cursor:grab}
+.owl-carousel.owl-rtl{direction:rtl}
+.owl-carousel.owl-rtl .owl-item{float:right}
+.owl-carousel .animated{animation-duration:1s;animation-fill-mode:both}
+.owl-carousel .owl-animated-in{z-index:0}
+.owl-carousel .owl-animated-out{z-index:1}
+.owl-carousel .fadeOut{animation-name:fadeOut}@keyframes fadeOut{0%{opacity:1}100%{opacity:0}}
+.owl-height{transition:height .5s ease-in-out}
+.owl-carousel .owl-item .owl-lazy{opacity:0;transition:opacity .4s ease}
+.owl-carousel .owl-item img.owl-lazy{transform-style:preserve-3d}
+.owl-theme .owl-dots,.owl-theme .owl-nav{text-align:center;-webkit-tap-highlight-color:transparent}
+.owl-theme .owl-nav{margin-top:10px}
+.owl-theme .owl-nav [class*=owl-]{color:#FFF;font-size:14px;margin:5px;padding:4px 7px;background:#D6D6D6;display:inline-block;cursor:pointer;border-radius:3px}
+.owl-theme .owl-nav [class*=owl-]:hover{background:#869791;color:#FFF;text-decoration:none}
+.owl-theme .owl-nav .disabled{opacity:.5;cursor:default}
+.owl-theme .owl-nav.disabled+.owl-dots{margin-top:100px}
+.owl-theme .owl-dots .owl-dot{display:inline-block;zoom:1}
+.owl-theme .owl-dots .owl-dot span{width:10px;height:10px;margin:5px 7px;background:#D6D6D6;display:block;-webkit-backface-visibility:visible;transition:opacity .2s ease;border-radius:30px}
+.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:#869791}
+
