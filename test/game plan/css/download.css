@@ -110,7 +110,7 @@ body
 }
 #Table2 .cell0
 {
-   background-color: #DFF0D8;
+   background-color: #C8F4B6;
    background-image: none;
    border: 0px #000000 solid;
    text-align: center;
@@ -146,7 +146,6 @@ body
    background-position: left top;
    background-size: 100% 100%;
    color: #F5F5F5;
-   font-family: Arial;
    font-weight: normal;
    font-size: 13px;
    margin: 0;
@@ -174,7 +173,7 @@ body
 }
 #Table3 .cell0
 {
-   background-color: #D9EDF7;
+   background-color: #B7E0F4;
    background-image: none;
    border: 0px #000000 solid;
    text-align: center;
@@ -210,7 +209,6 @@ body
    background-position: left top;
    background-size: 100% 100%;
    color: #FFFFFF;
-   font-family: Arial;
    font-weight: normal;
    font-size: 13px;
    margin: 0;
@@ -272,7 +270,6 @@ body
    background-color: #428BCA;
    background-image: none;
    color: #FFFFFF;
-   font-family: Arial;
    font-weight: normal;
    font-size: 13px;
    margin: 0;
