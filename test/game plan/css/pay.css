@@ -135,3 +135,10 @@
    text-align: center;
 	z-index: 999;
 }
+.pay-download input{
+	-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 2s, transform 2s;
+}
+.pay-download input:hover{
+    width: 400px;
+}

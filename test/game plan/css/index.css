@@ -28,8 +28,8 @@
    background-image: none;
    border: 0px #B5B5B5 solid;
    text-align: center;
-   margin: 10px 4px 0px 0px;
-   padding: 5px;
+   margin: 10px 10px;
+   padding: 8px;
 }
 #wb_FontAwesomeIcon1:hover
 {
@@ -61,8 +61,10 @@
    background-image: none;
    border: 0px #B5B5B5 solid;
    text-align: center;
-   margin: 10px 4px 0px 0px;
-   padding: 5px;
+   margin: 10px;
+   padding: 8px;
+	position:relative;
+	top:-8px;
 }
 #wb_FontAwesomeIcon3:hover
 {
@@ -94,8 +96,10 @@
    background-image: none;
    border: 0px #B5B5B5 solid;
    text-align: center;
-   margin: 10px 4px 0px 0px;
-   padding: 5px;
+   margin: 10px;
+   padding: 8px;
+	position:relative;
+	top:-8px;
 }
 #wb_FontAwesomeIcon4:hover
 {
@@ -155,12 +159,14 @@
 }
 #wb_FontAwesomeIcon2
 {
-   background-color: #404040;
-   background-image: none;
-   border: 0px #B5B5B5 solid;
-   text-align: center;
-   margin: 10px 4px 0px 0px;
-   padding: 5px;
+   	background-color: #404040;
+   	background-image: none;
+   	border: 0px #B5B5B5 solid;
+   	text-align: center;
+   	margin: 10px;
+   	padding: 8px;
+	position:relative;
+	top:-8px;
 }
 #wb_FontAwesomeIcon2:hover
 {
@@ -381,7 +387,7 @@
 #Carousel1 .frame-1
 {
    background-color: transparent;
-   background-image: url(../images/1.jpg);
+   background-image: url(../images/index_background3.jpg);
    background-repeat: no-repeat;
    background-position: center center;
    background-size: cover;
@@ -389,7 +395,7 @@
 #Carousel1 .frame-2
 {
    background-color: transparent;
-   background-image: url(../images/2.jpg);
+   background-image: url(../images/index_background2.jpg);
    background-repeat: no-repeat;
    background-position: left center;
    background-size: cover;
@@ -397,7 +403,7 @@
 #Carousel1 .frame-3
 {
    background-color: transparent;
-   background-image: url("../images/3.jpg");
+   background-image: url("../images/index_background1.jpg");
    background-repeat: no-repeat;
    background-position: center center;
    background-size: cover;

@@ -16,72 +16,6 @@
 <script src="js/wb.carousel.min.js"></script>
 <script src="js/wwb12.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
-	<script>
-		window.onload=function(){ 
-	   	var linkbt=document.getElementById("linkbt"); 
-	   	var light=document.getElementById('light'); 
-	   	var fade=document.getElementById('fade'); 
-	   	var closebt=document.getElementById("closebt"); 
-	   	linkbt.onclick=function(){ 
-		 	light.style.display='block'; 
-		 	fade.style.display='block'; 
-	   	} 
-	   	closebt.onclick=function(){ 
-		 	light.style.display='none'; 
-		 	fade.style.display='none'; 
-	   	} 
-	} 
-$(document).ready(function()
-{
-	$("#Banner1").animatetext({showDelay: 50, hideDelay: 50, showMode: 2, hideMode: 2, pause: 500});
-   skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
-   var Carousel1Opts =
-   {
-      delay: 3000,
-      duration: 500,
-      easing: 'linear',
-      mode: 'forward',
-      direction: '',
-      scalemode: 1,
-      pagination: true,
-      pagination_img_default: 'images/page_default.png',
-      pagination_img_active: 'images/page_active.png',
-      start: 0
-   };
-   $("#Carousel1").on('beforeActivate', function(event, index)
-   {
-      switch(index)
-      {
-         case 0:
-            AnimateCss('wb_Title1', 'transform-scale-in', 400, 500);
-            AnimateCss('wb_Review1', 'transform-lightspeed-in', 800, 500);
-            AnimateCss('wb_User1', 'animate-rotate-in-left', 800, 1000);
-            break;
-         case 1:
-            AnimateCss('wb_Title2', 'transform-scale-in', 500, 500);
-            AnimateCss('wb_Review2', 'transform-lightspeed-in', 800, 500);
-            AnimateCss('wb_User2', 'animate-rotate-in-left', 800, 1000);
-            break;
-         case 2:
-            AnimateCss('wb_Title3', 'transform-scale-in', 500, 500);
-            AnimateCss('wb_Review3', 'transform-lightspeed-in', 800, 500);
-            AnimateCss('wb_User3', 'animate-rotate-in-left', 800, 1000);
-            break;
-      }
-   });
-   $("#Carousel1").carousel(Carousel1Opts);
-   $("#Carousel1_back a").click(function()
-   {
-      $('#Carousel1').carousel('prev');
-   });
-   $("#Carousel1_next a").click(function()
-   {
-    $('#Carousel1').carousel('next');
-   });
-	
-  $('#myCarousel2').owlCarousel( { margin: 10, stagePadding: 10, autoplay: true, rewind: true, dotsEach: true, responsive : { 0: { items : 1 }, 480: { items : 3}, 768: { items : 4}, 970: { items : 5}}});
-});
-	</script>
 	<!--还没搞懂js..先不去研究滚动展示-->
 </head>
 <body>
@@ -115,9 +49,11 @@ $(document).ready(function()
 									<div class="pay-download">
 										<img src="images/download 7.png" alt="">
 										<h2>Download Now !</h2>
-										<p>Enjoy the high-speed bandwidth and better game  experience.</p>			
+										<p>Enjoy the high-speed bandwidth and better game  experience.</p>
+										<form action="">
 										<input class="input-1" type="submit" name="SSTap" value="SSTap High-speed Download">
 										<input class="input-2" type="submit" name="Official" value="Official application  Download">
+										</form>
 										<h6>Also available for Mac and Linux.</h6>
 									</div>
 								</div>
@@ -171,10 +107,10 @@ $(document).ready(function()
 	
 	<div class="introduce">
 		<div class="content">					
-			<img class="img1 clearfix" src="images/download 3.png" alt="">
-			<img class="img2 clearfix" src="images/download 4.png" alt="">
-			<img class="img3 clearfix" src="images/introduce 2.png" alt="">
-			<img class="img4 clearfix" src="images/introduce 3.png" alt="">
+			<img class="img1 clearfix" src="images/index_introduce1.png" alt="">
+			<img class="img2 clearfix" src="images/index_introduce2.png" alt="">
+			<img class="img3 clearfix" src="images/index_introduce3.png" alt="">
+			<img class="img4 clearfix" src="images/index_introduce4.png" alt="">
 			<div class="describe">
 				<p>①屈行加速拥有独立的服务客户端，切实保证网络服务质量。</p>
 				<p>②非单一节点，多节点并行，高速服务器保证加速网络通畅。</p>
@@ -194,74 +130,39 @@ $(document).ready(function()
 						<div id="myCarousel2" style="" class="owl-carousel owl-theme">
 							<div class="myitem">
 								<div class="myinnerframe">
-									<div id="wb_Awesome1" style="display:inline-block;width:226px;height:200px;text-align:center;z-index:0;">
-										<div id="Awesome1"><img src="../../第二版/images/1.jpg" alt=""></div>
+									<div id="wb_Awesome1" class="myinnerframe-img">
+										<div id="Awesome1"><img src="images/index_game_logo1.jpg" alt=""></div>
 									</div>
 								</div>
 							</div>
-						<div class="myitem active">
-							<div class="myinnerframe">
-								<div id="wb_Awesome2" style="display:inline-block;width:176px;height:150px;text-align:center;z-index:1;">
-									<div id="Awesome2"><img src="images/supplies6.jpg" alt=""></div>
+							<div class="myitem active">
+								<div class="myinnerframe">
+									<div id="wb_Awesome2" class="myinnerframe-img">
+										<div id="Awesome2"><img src="images/index_game_logo2.png" alt=""></div>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="myitem">
-							<div class="myinnerframe">
-								<div id="wb_Awesome4" style="display:inline-block;width:126px;height:100px;text-align:center;z-index:2;">
-									<div id="Awesome4"><img src="images/supplies6.jpg" alt=""></div>
+							<div class="myitem">
+								<div class="myinnerframe">
+									<div id="wb_Awesome4" class="myinnerframe-img">
+										<div id="Awesome4"><img src="images/index_game_logo3.jpg" alt=""></div>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="myitem">
-							<div class="myinnerframe">
-								<div id="wb_Awesome3" style="display:inline-block;width:126px;height:100px;text-align:center;z-index:3;">
-									<div id="Awesome3"><img src="images/supplies6.jpg" alt=""></div>
+							<div class="myitem">
+								<div class="myinnerframe">
+									<div id="wb_Awesome3" class="myinnerframe-img">
+										<div id="Awesome3"><img src="images/index_game_logo4.png" alt=""></div>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="myitem">
-							<div class="myinnerframe">
-								<div id="wb_Awesome5" style="display:inline-block;width:126px;height:100px;text-align:center;z-index:4;">
-									<div id="Awesome5"><img src="images/supplies6.jpg" alt=""></div>
+							<div class="myitem">
+								<div class="myinnerframe">
+									<div id="wb_Awesome5" class="myinnerframe-img">
+										<div id="Awesome5"><img src="images/index_game_logo5.png" alt=""></div>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="myitem">
-							<div class="myinnerframe">
-								<div id="wb_Awesome6" style="display:inline-block;width:126px;height:100px;text-align:center;z-index:5;">
-									<div id="Awesome6"><img src="images/supplies6.jpg" alt=""></div>
-								</div>
-							</div>
-						</div>
-						<div class="myitem">
-							<div class="myinnerframe">
-								<div id="wb_Awesome7" style="display:inline-block;width:126px;height:100px;text-align:center;z-index:6;">
-									<div id="Awesome7"><img src="images/supplies6.jpg" alt=""></div>
-								</div>
-							</div>
-						</div>
-						<div class="myitem">
-							<div class="myinnerframe">
-								<div id="wb_Awesome8" style="display:inline-block;width:126px;height:100px;text-align:center;z-index:7;">
-									<div id="Awesome8"><img src="images/supplies6.jpg" alt=""></div>
-								</div>
-							</div>
-						</div>
-						<div class="myitem">
-							<div class="myinnerframe">
-								<div id="wb_Awesome9" style="display:inline-block;width:126px;height:100px;text-align:center;z-index:8;">
-									<div id="Awesome9"><img src="images/supplies6.jpg" alt=""></div>
-								</div>
-							</div>
-						</div>
-						<div class="myitem">
-							<div class="myinnerframe">
-								<div id="wb_Awesome10" style="display:inline-block;width:126px;height:100px;text-align:center;z-index:9;">
-									<div id="Awesome10"><img src="images/supplies6.jpg" alt=""></div>
-								</div>
-							</div>
-						</div>
 						</div>
 				</div>
 			</div>
@@ -288,20 +189,20 @@ $(document).ready(function()
 				<div class="col-2">
 					<div id="wb_Breadcrumb1"  style="display:inline-block;width:455px;z-index:1;vertical-align:top;">
 						<ul id="Breadcrumb1">
-						<li><a href="">帮助文档</a></li>
+						<li><a href="TrashinkGame.pdf">帮助文档</a></li>
 						<li><a href="">条款</a></li>
 						</ul>
 					<div id="wb_FontAwesomeIcon1">
-						<a href="./index.html"><div id="FontAwesomeIcon1"><i class="fa fa-whatsapp">&nbsp;</i></div></a>
+						<a href="./index.html"><div id="FontAwesomeIcon1"><img src="images/index_bilibililogo.png" height="20px;" width="20px;" alt=""></div></a>
 					</div>
 					<div id="wb_FontAwesomeIcon2">
-						<a href="./index.html"><div id="FontAwesomeIcon2"><i class="fa fa-weibo">&nbsp;</i></div></a>
+						<a href="https://weibo.com/6574842309/profile?rightmod=1&wvr=6&mod=personinfo&tdsourcetag=s_pctim_aiomsg"><div id="FontAwesomeIcon2"><i class="fa fa-weibo">&nbsp;</i></div></a>
 					</div>
 					<div id="wb_FontAwesomeIcon3">
 						<a href="./index.html"><div id="FontAwesomeIcon3"><i class="fa fa-wechat">&nbsp;</i></div></a>
 					</div>
 					<div id="wb_FontAwesomeIcon4">
-						<a href="./index.html"><div id="FontAwesomeIcon4"><i class="fa fa-envelope">&nbsp;</i></div></a>
+						<a href="mailto:trashinkofficial@gmail.com?subject=这是邮件的主题&body=这是邮件的内容" rel="nofollow"><div id="FontAwesomeIcon4"><i class="fa fa-envelope">&nbsp;</i></div></a>
 					</div>
 					</div>
 				</div>
