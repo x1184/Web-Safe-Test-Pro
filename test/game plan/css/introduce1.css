@@ -35,7 +35,7 @@
 .content .img1{
 	position:absolute;
 	left: 0%;
-    top: 19%;
+    top: 12%;
     width: 16%;
 /*	height: 40%; 去掉高属性让他不要不成比例缩放  看着很难受..*/
 }
@@ -45,7 +45,7 @@
 	left:25%;
 	top:12%;*/
     left: 18%;
-    top: 20%;
+    top: 13%;
     width: 16%;
 /*	height: 40%;*/
 }
@@ -54,7 +54,7 @@
 /*	left:8%;
 	top:54%;*/
     left: 1%;
-    top: 59%;
+    top: 50%;
     width: 16%;
 /*	height: 40%;*/
 }
@@ -63,7 +63,7 @@
 /*	left:25%;
 	top:52%;*/
     left: 18%;
-    top: 58%;
+    top: 50%;
     width: 16%;
 /*	height: 40%;*/
 }
