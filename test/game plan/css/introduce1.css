@@ -8,6 +8,7 @@
 }
 .content{
 	background: url("../images/download.png");
+	background-color: rgba(60, 60, 86, 0.86);
 	background-position:center,center;
 	background-repeat: no-repeat, repeat;
 	background-size:100% 98%;
