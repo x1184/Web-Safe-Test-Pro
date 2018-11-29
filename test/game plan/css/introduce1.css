@@ -7,7 +7,8 @@
 	z-index: -1;	
 }
 .content{
-	/*background: url("../images/download.png");*/
+	/*background: url("../images/download.png"); 这个本身效果没那么好 
+	还又得去适配位置 弄麻烦了*/
 	background-color: rgba(60, 60, 86, 0.86);
 	background-position:center,center;
 	background-repeat: no-repeat, repeat;
@@ -30,19 +31,18 @@
 	margin: 0 100px;
 	padding: 0 100px;
 }
-/*.content .img{
-	float: left;
-}*/
+
 .content .img1{
 	position:absolute;
 	left: 0%;
     top: 19%;
     width: 16%;
-/*	height: 40%;*/
+/*	height: 40%; 去掉高属性让他不要不成比例缩放  看着很难受..*/
 }
 .content .img2{
 	position:absolute;
-/*	left:25%;
+/*	保留未修改前位置参数
+	left:25%;
 	top:12%;*/
     left: 18%;
     top: 20%;
