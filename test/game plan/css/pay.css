@@ -47,15 +47,16 @@
 }
 .pay .pay-download p{
 	position:absolute;
-	left:22px;
-	top:100px;
+	left:30px;
+	top:135px;
 	width: 480px;
-	font-size: 2.2rem;
+	font-size: 1.5rem;
 }
 .pay .pay-download h6{
 	position:absolute;
-	left:260px;
-	top:400px;
+	left:140px;
+	top:360px;
+	font-size: 20px;
 }
 .input-1{
 	background: url("../images/download 6.png");

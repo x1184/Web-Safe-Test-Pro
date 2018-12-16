@@ -156,7 +156,7 @@ a:link {
 a:visited {
 	color:#000000;
 } /* 已访问的链接 */
-a:hover {color:#A9DF85;} /* 鼠标划过链接 */
+a:hover {color:#28DB05;} /* 鼠标划过链接 */
 .panel a:hover{
 	animation: flipper 3s ease-in;
 	-moz-animation: flipper 3s ease-in;
