@@ -1,0 +1,24 @@
+
+.swiper-container {
+    width: auto;
+	height: 1px;/*想要高度自适应必须要定义一个高度的值,但是这个值不管是多少又不影响!奇了怪了*/
+	display: flex;
+  	min-height: 100vh;
+  	flex-direction: column;
+}  
+
+
+header {
+  background: #cecece;
+  min-height: 100px;
+}
+
+content {
+  background: #bbbbbb;
+  flex: 1; /* 1 代表盡可能最大，會自動填滿除了 header footer 以外的空間 */
+}
+
+footer {
+  background: #333333;
+  min-height: 100px;
+}/*以上三行实现高度自适应!!!舒服*/
