@@ -24,9 +24,9 @@
 		}
 		.underline{
 			width: 100%;
-			height: 1rem;
+			height: 0.8rem;
 			margin: 0 auto;
-			box-shadow: 5px 2px 2px #2F2C2C;
+			box-shadow: 2px 2px 2px #2F2C2C;
 			background: #FFFFFF;
 		}
 		body{
@@ -47,9 +47,6 @@
 			color: #FFFFFF;
 			display:inline-block;
 		}
-		.header .underline{
-			width: 100%;
-		}
 		.trashink-name{
 			margin: 0;
 			display: -webkit-flex; /* Safari */
@@ -69,7 +66,7 @@
 			justify-content: space-around;
 		}
 		.header p{
-			font-size: 3rem;
+			font-size: 2.6rem;
 			text-align: center;
 			color: #FFFFFF;
 			display:inline-block;
@@ -83,7 +80,7 @@
 			letter-spacing:1rem;
 		}
 		.header-content span b{
-			letter-spacing:4.5rem;
+			letter-spacing:2.5rem;
 		}
 		.string{
 			margin: 0 auto;
@@ -107,7 +104,7 @@
 			margin: 0 auto;
 		}
 		.vertical{
-			width: 20rem;
+			
 			display:inline;/*将块元素变成行内元素*/
 			float: left;
 		}
@@ -120,10 +117,8 @@
 			color: #e9473c;
 		}
 		.Central img{
-			margin:30px 0 ;
-			float: right;
-			width: 40%;
-			
+			margin:4rem 2rem ;
+			width: 60%;
 		}
 
 		.fooder{
@@ -141,9 +136,6 @@
 			color: #FFFFFF;
 			display:inline-block;
 			margin: 0;
-		}
-		.fooder .underline{
-			width: 100%;
 		}
 		.trashink-name{
 			display: -webkit-flex; /* Safari */
@@ -169,25 +161,25 @@
 			margin: 0;
 		}
 		.parameter h5{
-			font-size: 1.8rem;
+			font-size: 1.2rem;
 			color: #e9473c;
 			padding: 2px;
 			margin: 0;
 		}
 		.parameter h4{
-			font-size: 2.2rem;
+			font-size: 1.5rem;
 			color: #e9473c;
 			margin: 0;
 		}
 		.parameter h3{
-			font-size: 2.5rem;
+			font-size: 1.5rem;
 			color: aliceblue;
 			margin: 0;
 		}
 		.parameter h2{
-			font-size: 4rem;
+			font-size: 3rem;
 			color: aliceblue;
-			padding: 2px;
+			padding: 1px;
 			text-align: center;
 			margin: 0 auto;
 		}
@@ -218,8 +210,10 @@
 					<div class="string"><img src="img/trapezoid.png" alt="" ></div>
 					<div class="underline"></div>
 					<div class="Central">
-						<div class="vertical"><p>我<span>需</span>门<span>要</span></p></div>
-						<img src="img/index-mind.png" alt="">
+						<div class="row">
+						<div class="vertical col"><p>我<span>需</span><br>门<span>要</span></p></div>
+						<div  class="col"><img src="img/index-mind.png" alt=""></div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -257,8 +251,9 @@
 			</div>
 		</div>
     </div>
-	<!-- 如果需要分页器 -->
+	<!-- 如果需要分页器 
     <div class="swiper-pagination"></div>
+	-->
     <!-- 如果需要导航按钮 
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
